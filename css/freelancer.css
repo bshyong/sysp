@@ -6,6 +6,8 @@
 
 body {
     overflow-x: hidden;
+    font-size:1.2em !important;
+    line-height:2.6em;
 }
 
 p {
@@ -394,6 +396,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    z-index:9999;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -442,4 +445,17 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+
+.container{
+    max-width: 80%;
+}
+
+.row{
+    margin-bottom: 75px;
+}
+
+footer .row{
+    margin-bottom: 0px !important;
 }
