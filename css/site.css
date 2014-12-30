@@ -710,12 +710,12 @@ header.global ul.the_nav li.video:hover .play_icon {
   margin-bottom: 0;
 }
 .hero::before {
-  content: "";
+/*  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
   border-left: 1px solid #10a2b8;
-  height: 50%;
+  height: 50%;*/
 }
 
 .the_story {
@@ -1124,7 +1124,7 @@ header.global ul.the_nav li.video:hover .play_icon {
   transform: translateY(-50%);
 }
 .content_centered::before, .content_centered::after {
-  content: "";
+/*  content: "";
   position: absolute;
   z-index: 99;
   top: -.625em;
@@ -1135,7 +1135,7 @@ header.global ul.the_nav li.video:hover .play_icon {
   background: white;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  transform: translateX(-50%);*/
 }
 .content_centered::after {
   top: auto;
