@@ -1,6 +1,6 @@
 p.newstyle{
   max-width: 35em;
-  font-size: 1.25em;
+  font-size: 1.1em;
   margin: 0 auto 1.25em;
   line-height: 1.6em;
   text-align: left;
@@ -27,4 +27,20 @@ h4.newstyle{
   margin-top:0;
   padding-top: 1.25em;
   padding-bottom: 1.25em;
+}
+
+ul.half-width li{
+  float: left;
+  width: 47.5%;
+  margin-right: 5%;
+  margin-bottom: 2em;
+}
+
+ul.half-width li:last-child{
+  margin-right: 0;
+}
+
+div.faq{
+  max-width: 43.5em;
+  margin: 0 auto 1.25em;
 }
