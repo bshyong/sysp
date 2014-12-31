@@ -29,6 +29,11 @@ h4.newstyle{
   padding-bottom: 1.25em;
 }
 
+.stat h2{
+  max-width: 20em;
+  margin: 0 auto 1.25em;
+}
+
 ul.half-width li{
   float: left;
   width: 47.5%;

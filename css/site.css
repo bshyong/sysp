@@ -605,6 +605,11 @@ header.global ul.the_nav li.video:hover .play_icon {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.logo{
+  margin-top:5em;
+}
+
 @media (min-width: 40em) {
   header.global {
     height: 4.375em;
@@ -614,6 +619,16 @@ header.global ul.the_nav li.video:hover .play_icon {
     transition: background .2s ease, -webkit-transform .5s ease-in-out;
     transition: background .2s ease, transform .5s ease-in-out;
   }
+
+  .logo{
+    margin-top:2em;
+  }
+
+  .hero .contain::before{
+    background: url(../images/hero_bg.png) no-repeat center;
+    background-size: contain;
+  }
+
   header.global.nav--hide {
     -webkit-transform: translateY(-4.375em);
     -ms-transform: translateY(-4.375em);
@@ -678,8 +693,8 @@ header.global ul.the_nav li.video:hover .play_icon {
   right: 75%;
   width: 65.0625em;
   height: 10.25em;
-  background: url(../images/hero_bg.png) no-repeat center;
-  background-size: contain;
+/*  background: url(../images/hero_bg.png) no-repeat center;
+  background-size: contain;*/
 }
 .hero .play_icon {
   display: block;
