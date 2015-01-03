@@ -1441,6 +1441,12 @@ header.global ul.the_nav li.video:hover .play_icon {
   text-decoration: none;
   transition: color .3s ease;
 }
+
+a.contact{
+  text-decoration: underline;
+  
+}
+
 .last_hurrah .contact:hover {
   color: #2d3035;
 }
