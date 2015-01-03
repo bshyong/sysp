@@ -678,7 +678,6 @@ header.global ul.the_nav li.video:hover .play_icon {
 .hero {
   position: relative;
   text-align: center;
-  max-height: 53.125em;
   min-height: 50em;
 }
 .hero .contain {
@@ -1130,13 +1129,13 @@ header.global ul.the_nav li.video:hover .play_icon {
 }
 
 .content_centered {
-  position: absolute;
+/*  position: absolute;
   top: 50%;
-  left: 0;
+  left: 0;*/
   width: 100%;
-  -webkit-transform: translateY(-50%);
+/*  -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
 }
 .content_centered::before, .content_centered::after {
 /*  content: "";
