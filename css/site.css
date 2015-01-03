@@ -678,7 +678,6 @@ header.global ul.the_nav li.video:hover .play_icon {
 .hero {
   position: relative;
   text-align: center;
-  min-height: 50em;
 }
 .hero .contain {
   height: 100%;
